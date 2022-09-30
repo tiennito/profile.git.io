@@ -1,0 +1,139 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0px;
+    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0px auto;
+}
+.header-wrapper {
+    background-color: bisque;
+    z-index: 1;
+    padding: 0px 10rem;
+}
+
+.header {
+    height: 50px;
+    display: flex;
+    width: 1005;
+    align-items: center;
+    color: black;
+}
+
+.information ul {
+display: flex;
+align-items: center;
+list-style: none;
+}
+
+.information ul li {
+    margin: 0px 25px;
+    text-transform: capitalize;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.banner {
+    margin-top: -5px;
+    background-image: url("../imgs/ogs.jpg");
+    background-position-y: -60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    max-height: 600px;
+    z-index: -1;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10rem;
+    margin-bottom: 2rem;
+}
+
+.banner .intro {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    max-width: 80vw;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.intro h1{
+    margin: 0px;
+    color: black;
+}
+
+.banner .custom-image {
+    margin: 6rem;
+    max-width: 50vw;
+}
+
+.intro  h1 {
+    margin: 0px;
+    color: black;
+}
+
+.About-wrapper {
+    height: 100vh;
+    padding: 0px 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.About-image {
+    width: 50vw;
+}
+
+.About-me-info {
+    width: 50vw;
+    font-size: 2.5rem;
+    flex-direction: column;
+    display: flex;
+}
+
+.About-me-info h1 {
+    color: black;
+    margin: 0;
+    font-size: 50px;
+  }
+  .About-me-info p {
+    font-size: 16px;
+    color: #403d56;
+  }
+
+  .Credentials {
+    padding: 0px 10rem;
+  }
+  .Credentials-title {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    color: #0099ff;
+    text-align: center;
+    font-weight: 400;
+  }
+  .credential-list {
+    display: flex;
+  }
+  .credential {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .credential-img {
+    height: 300px;
+  }
+
+  .credential h1 {
+    color: black;
+  }
+  .credential p {
+    color: #403d56;
+  }
+
+  
